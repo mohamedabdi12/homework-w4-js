@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+    <!--my css link-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="quizContainer" class="container">
+        <div class="title">QUICK QUIZ</div>
+        <p>Test your knowledge of computer science!<br> Let me see how much you know about programming?<br>
+           Answer these questions to learn more about javascript, Css and Html.</p>
+         <div id="start"><button class="start-btn" onClick= "beginQuiz()">Begin the Quiz!</button>
+        </div>
+        <div id="quiz" style="display: none">
+            <h2 id="quizQuestion"></h2>
+            <div class = "img-div" id="quizImg"></div>
+            <div id="choices">
+                <!-- <label class="choice"><input type="radio" name="choice" value="choiceA"/> <span id="choiceA"></span></label>
+                <label class="choice"><input type="radio" name="choice" value="choiceA"/> <span id="choiceB"></span></label>
+                <label class="choice"><input type="radio" name="choice" value="choiceA"/> <span id="choiceC"></span></label>
+                <label class="choice"><input type="radio" name="choice" value="choiceA"/> <span id="choiceD"></span></label> -->
+                <button id="choiceA" onclick="check('A')"></button>
+                <button id="choiceB" onclick="check('B')"></button>
+                <button id="choiceC" onclick="check('C')"></button>
+                <button id="choiceD" onclick="check('D')"></button>
+                <!-- <button id="nextButton" class="next-btn" onclick="loadNextQuestion">Next Question</button> -->
+            </div>
+        <div id="choiceResponse" style="display: none"></div>
+    </div>
+    <div id="scoreBlock" style="display: none"></div>
+    <div id="timer">
+        <div id="counter"></div>
+        <div id="btimeGauge"></div>
+        <div id="timeGauge"></div>
+    </div>
+    <div id="progress"></div>
+</div>
+<div id="scoreContainer" style="display: none"></div>
+    <div id="scoreMessage" style="display: none"></div>
+    <div><button id="quizAgain" class="quizRestart" style="display: none" onClick="restartQuiz()">Try Again!</button></div>
+</div>
+</div>
+
+
+<!-- javascript link -->
+      <script src="script.js"></script>
+    
+</body>
+</html>

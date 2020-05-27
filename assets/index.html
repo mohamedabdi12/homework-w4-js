@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>QUIZ</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="quizContainer">
+      <header class="mainHeader">
+        <h1>QUICK QUIZ</h1>
+        <p>Test your knowledge of computer science!<br> Let me see how much you know about programming?<br>
+            Answer these questions to learn more about javascript, Css and Html.</p>
+        <span id="timerArea"></span>
+      </header>
+      <section id="questionsContainer" class="hide">
+        <div id="question"></div>
+        <div id="answers" class="buttonArea"></div>
+      </section>
+      <section class="scores">
+        <div id="scoreArea" class="hide"></div>
+      </section>
+      <section class="controls">
+        <button class="start" id="startButton">START</button>
+        <button class="btn" id="showScoresButton">See High Scores</button>
+        <br />
+        <div id="scoreArea" class="hide">
+          <span id="scoreDisplay"></span>
+          <input type="text" name="initials" id="initials" />
+          <button id="submitScore" class="submit">Submit Score</button>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

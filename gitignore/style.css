@@ -1,0 +1,123 @@
+ body{
+	 font-size: 20px; 
+	 font-family: 'roboto slab', serif;
+	 color: #333;
+	 background: url(https://thumbs.gfycat.com/BreakableFatalGrizzlybear-size_restricted.gif);
+	 color: yellow;
+ }
+
+ .container{
+ height: 400px; 
+ width: 1000px; 
+ position: absolute;
+ top: 50%; 
+ left: 50%;
+ transform: translateX(-50%) translateY(-50%);
+ background: rgba(255, 255, 255, 0.5); 
+ padding: 20px; 
+ border: 1px solid #08038c;
+ box-shadow: 0 0 8px 3px #fff;
+ text-align: center;
+ 
+ }
+
+/* .next-btn{
+	font-size: 20px;
+	display: inline-block;
+	background: url(https://cdn-media-1.freecodecamp.org/images/0*dOLz3DK9K1LUHuFK.jpg);
+	color: white;
+	text-shadow: transparent;
+	display: inline-block;
+} */
+
+.start-btn {
+    font-size: 20px;
+	margin-top: 150px;
+	display: inline-block;
+	background: url(https://cdn-media-1.freecodecamp.org/images/0*dOLz3DK9K1LUHuFK.jpg);
+	color: white;
+	text-shadow: transparent;
+
+}
+
+button{
+    width: 470px;
+	display: inline-block;
+	padding: 10px 0 10px 15px;
+	vertical-align: middle;
+	background: url(https://cdn-media-1.freecodecamp.org/images/0*dOLz3DK9K1LUHuFK.jpg);
+	text-shadow: rgb(red, green, blue);
+	text-transform: uppercase;
+
+    border-radius: 23px;
+    margin: 10px 0 10px 10px;
+	font-size: 15px;
+	color: #fff;
+}
+
+
+
+button:focus {
+    outline: none;
+}
+
+#scoreBlock {
+    padding-top: 100px;
+}
+
+#quiz{
+    overflow:hidden;
+}
+
+.quizRestart {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    text-align: center;
+}
+
+#timer{
+    position: absolute;
+    height : 100px;
+    width : 200px;
+    top : 50px;
+	text-align: center;
+	margin-right: 20px;
+}
+#counter{
+    font-size: 3em;
+}
+#timeGauge{
+    height : 10px;
+    border-radius: 10px;
+    background-color: mediumseagreen;
+    margin-top : -10px;
+    margin-left : 25px;
+}
+#progress{
+    width : 500px;
+    position: absolute;
+    bottom : 0px;
+    right : 0px;
+    padding:5px;
+    text-align: right;
+}
+#progress{
+    width : 500px;
+    position: absolute;
+    bottom : 0px;
+    right : 0px;
+    padding:5px;
+    text-align: right;
+}
+
+
+
+
+button:hover{
+    border : 2px solid grey;
+	font-weight: bold;
+	background: url(https://images5.alphacoders.com/427/thumb-350-427178.jpg);
+}

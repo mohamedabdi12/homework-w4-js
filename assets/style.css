@@ -1,0 +1,138 @@
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded;
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #68b0d9;
+}
+
+h3 {
+  margin: 10px 0px;
+}
+
+.mainHeader {
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid grey;
+}
+
+.quizContainer {
+  height: 500px; 
+ width: 1000px; 
+ position: absolute;
+ top: 50%; 
+ left: 50%;
+ transform: translateX(-50%) translateY(-50%);
+ background: red; 
+ padding: 20px; 
+ border: 1px solid #08038c;
+ box-shadow: 0 0 8px 3px blue;
+ text-align: center;
+}
+
+.buttonArea {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: 20px 0;
+  
+}
+
+button {
+    width: center;
+	display: inline-block;
+	padding: 5px 0 5px 5px;
+	vertical-align: middle;
+	background: url(https://cdn-media-1.freecodecamp.org/images/0*dOLz3DK9K1LUHuFK.jpg);
+	text-shadow: rgb(red, green, blue);
+	text-transform: uppercase;
+
+    border-radius: 23px;
+    margin: 1px 0 1.5px 1px;
+	font-size: 25px;
+	color: #fff;
+}
+button:focus {
+    outline: none;
+}
+
+
+button:hover {
+    border : 2px solid grey;
+	font-weight: bold;
+	background: url(https://images5.alphacoders.com/427/thumb-350-427178.jpg);
+}
+
+.start {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 10px 0px;
+}
+
+.controls {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 23px;
+  margin: 10px 0 10px 10px;
+  font-size: 15px;
+  color: rgb(163, 35, 35);
+}
+
+.hide {
+  display: none;
+}
+
+.scoresList {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0.3rem 0;
+}
+
+#highScoresList {
+  margin: 1rem 0;
+}
+
+#scoreArea {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid grey;
+}
+
+#init {
+  margin-top: 0.7rem;
+}
+#initials {
+  margin: 5px;
+}
+
+#save-btn {
+  margin: 0.7rem;
+}
+
+#showScoresButton {
+  margin-top: 5px;
+  text-align: center;
+}
+
+/* @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  /* .buttonArea {
+    display: grid;
+    grid-template-columns: none;
+    gap: 10px;
+    margin: 20px 0;
+  } */
+/* } */
