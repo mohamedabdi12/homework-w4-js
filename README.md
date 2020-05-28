@@ -1,5 +1,11 @@
 # homework-w4-js
 
+# homework multiple choice quiz powered with javascript.
+'''''
+
+In this assignment i dynamically used updated HTMl, CSS powered with unique javascript file.
+take the quiz and enjoy a cool feature.
+
 
 The motivation behind this task was to make a clock based coding appraisal utilizing vanilla JavaScript that carries on like so: 
 
